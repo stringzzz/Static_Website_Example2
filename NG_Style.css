@@ -1,8 +1,9 @@
 /* Created 02-22-2023 by stringzzz, Ghostwarez Co. */
 
 body {
-	background-image: linear-gradient(RGB(0, 120, 0), RGB(0, 180, 0));
-	background-repeat: no-repeat; 
+	background-image: url("Images/leaftile.jpg");
+	background-size: 25%;
+	background-repeat: repeat;
 	background-attachment: fixed;
 }
 
