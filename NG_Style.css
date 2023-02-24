@@ -5,6 +5,7 @@ body {
 	background-size: 25%;
 	background-repeat: repeat;
 	background-attachment: fixed;
+	font-size: 1vw;
 }
 
 .banner-nav {
@@ -41,7 +42,6 @@ ul.nav > li {
 a {
 	text-decoration: none;
 	color: black;
-	font-size: 18px;
 	text-shadow: 0 0 1px RGB(0, 120, 0);
 }
 
@@ -53,7 +53,6 @@ a:hover {
 
 .content {
 	color: black;
-	font-size: 15px;
 	width: 50%;
 	margin: 3% 25%;
 	background-color: RGB(200, 165, 90);
@@ -68,6 +67,14 @@ p {
 	overflow-wrap: break-word;
 	margin-bottom: 5%;
 	text-align: left;
+}
+
+h1 {
+	font-size: 1.5vw;
+}
+
+h2 {
+	font-size: 1.3vw;
 }
 
 
@@ -85,8 +92,10 @@ p {
 }
 
 .meal-section .item-description {
+	font-size: 0.8vw;
 	font-style: italic;
 	margin-bottom: 2%;
+	margin-left: 5%;
 	
 }
 
