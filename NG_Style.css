@@ -71,6 +71,7 @@ p {
 
 h1 {
 	font-size: 1.5vw;
+	margin-top: 6%;
 }
 
 h2 {
@@ -83,6 +84,20 @@ h2 {
 .meal-section {
 	padding: 5% 5%;
 }
+
+.divider {
+	width: 90%;
+	display: block;
+	margin-left: 5%;
+}
+
+.section-image {
+	max-width: 30%;
+	display: block;
+	margin-left: 35%;
+	margin-bottom: 5%;
+}
+
 .meal-section .item-name, .item-description {
 	float: left;
 }
@@ -107,4 +122,14 @@ h2 {
 .meal-section .item-options {
 	text-align: left;
 	margin: 0 0 2% 0;
+	padding-left: 2%;
+}
+
+.item-options > li {
+	list-style: none;
+	background-position: left center;
+	background-size: 3%;
+	background-image: url("Images/leafpoint.png");
+	background-repeat: no-repeat;
+	padding-left: 3.5%;
 }
