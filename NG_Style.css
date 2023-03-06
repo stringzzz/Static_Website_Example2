@@ -14,10 +14,15 @@ body {
 	color: black;
 	border: 2px solid black;
 	border-radius: 10%;
-	text-align: center;
 	padding-top: 1%;
 	margin: 0% 25%;
 	box-shadow: 2px 2px 4px black;
+}
+
+.banner-nav .banner-image {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .banner-nav img {
@@ -26,29 +31,23 @@ body {
 	border-radius: 10%;
 }
 
-.nav {
+.navigation-list {
+	width: 90%;
 	list-style-type: none;
-}
-
-ul.nav > li {
-	display: inline;
-	margin: 0% 6%;
-}
-
-.nav:last-child {
-	margin-right: 4%;
+	display: flex;
+	justify-content: space-around;
 }
 
 a {
 	text-decoration: none;
 	color: black;
-	text-shadow: 0 0 1px RGB(0, 120, 0);
+	text-shadow: 0 0 1vw RGB(0, 120, 0);
 }
 
 a:hover {
 	color: rgb(0, 120, 0);
 	text-decoration: none;
-	text-shadow: 0 0 1px black;
+	text-shadow: 0 0 1vw black;
 }
 
 .content {
