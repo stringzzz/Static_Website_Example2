@@ -32,10 +32,12 @@ body {
 }
 
 .navigation-list {
-	width: 90%;
+	max-width: 90%;
 	list-style-type: none;
 	display: flex;
 	justify-content: space-around;
+	margin-left: 5%;
+	padding: 0;
 }
 
 a {
